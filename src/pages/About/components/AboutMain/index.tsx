@@ -29,7 +29,7 @@ const AboutMain = () => {
                         users with a fun, rewarding, and innovative experience.
                         Discover our project now and turn your steps into earnings.
                     </div>
-                    <a href="#" className={styles.aboutMainInfoLink}>Launch App</a>
+                    <a href="/" className={styles.aboutMainInfoLink}>Launch App</a>
                 </div>
                 <div className={`${styles.aboutMainInfoNftCard} ${styles.aboutMainInfoNftCard2}`} />
             </div>
