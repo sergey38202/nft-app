@@ -1,0 +1,84 @@
+.aboutMainContainer {
+  width: 100%;
+  max-width: 1107px;
+  margin: 0 auto 200px;
+
+  @media (max-width: 780px) {
+    margin-bottom: 40px;
+  }
+}
+
+.aboutMainAppWrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 160px;
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+}
+
+.aboutMainInfoWrapper {
+  width: 100%;
+  max-width: 549px;
+  text-align: center;
+}
+
+.aboutMainInfoTitle {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.aboutMainInfoDescription {
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 0.6;
+
+  @media (max-width: 780px) {
+    margin-bottom: 20px;
+  }
+}
+
+.aboutMainInfoNftCard {
+  height: 525px;
+  width: 100%;
+  max-width: 500px;
+  background-image: url("../../../../assets/nft-card-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 780px) {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+.aboutMainInfoNftCard2 {
+  background-image: url("../../../../assets/nft-card-2.jpg");
+}
+
+.aboutMainAppWrapper2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.aboutMainInfoLink {
+  margin-top: 46px;
+  color: #5283FF;
+  font-size: 24px;
+  font-weight: 400;
+  display: inline-block;
+  text-align: left;
+}

@@ -1,0 +1,21 @@
+.levelSupportContianer {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 20px;
+
+  @media (max-width: 780px) {
+    margin-bottom: 40px;
+  }
+}
+
+.levelSupportItem {
+  padding: 44px;
+  border-radius: 34px;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+}

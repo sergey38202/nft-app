@@ -1,0 +1,27 @@
+.home {
+  position: relative;
+  width: 100%;
+  max-width: 1107px;
+  margin: 0 auto 200px;
+
+  @media (max-width: 430px) {
+    margin-bottom: 100px;
+  }
+}
+
+.homeBgRound {
+  position: absolute;
+  bottom: 60px;
+  z-index: -1;
+  left: 15%;
+  width: 720px;
+  height: 720px;
+  flex-shrink: 0;
+  border-radius: 720px;
+  background: linear-gradient(180deg, #B7BA31 0%, rgba(185, 113, 61, 0.00) 100%);
+  filter: blur(300px);
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+}

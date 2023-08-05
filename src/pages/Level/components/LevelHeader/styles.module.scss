@@ -1,0 +1,50 @@
+.levelHeaderContainer {
+  margin-bottom: 150px;
+
+  @media (max-width: 780px) {
+    margin-bottom: 40px;
+  }
+}
+
+.levelHeaderTitle {
+  text-align: center;
+  color: white;
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+.levelHeaderDescription {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  margin-bottom: 50px;
+
+  @media (max-width: 780px) {
+    margin-bottom: 0;
+  }
+}
+
+.levelHeaderRounds {
+  display: flex;
+  align-items: center;
+  max-width: 332px;
+  width: 100%;
+  margin: 0 auto;
+
+  > img:first-child {
+    margin-left: 0;
+  }
+
+  img {
+    margin-left: -25%;
+    width: 145px;
+    height: 145px;
+
+    @media (max-width: 780px) {
+      width: 120px;
+    }
+  }
+}

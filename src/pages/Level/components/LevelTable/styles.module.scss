@@ -1,0 +1,54 @@
+.levelTableContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1243px;
+  margin: 0 auto 200px;
+  padding: 80px;
+  border-radius: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0.60);
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+}
+
+.levelTableTitleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.levelTableTitle {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.levelTableRowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.levelTableItem {
+  margin-bottom: 53px;
+  min-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.levelTableRowItem {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  opacity: 0.4;
+}

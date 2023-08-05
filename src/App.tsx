@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Level from "./pages/Level";
+import Team from "./pages/Team";
+import FAQ from "./pages/FAQ";
 
-function App() {
+import {FAQ_ITEMS, TEAM_ITEMS} from "./utils/constants";
+import "./App.scss";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="main-container">
+          <Header />
+          <Home />
+          <About />
+          <Level />
+          <Team team={TEAM_ITEMS} />
+          <FAQ faqItems={FAQ_ITEMS} />
+      </div>
   );
 }
 

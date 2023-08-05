@@ -1,0 +1,87 @@
+.headerContainer {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 217px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  background: rgba(26, 26, 26, 0.60);
+  backdrop-filter: blur(10px);
+  padding: 7px 60px;
+
+  @media (max-width: 768px) {
+    -webkit-overflow-scrolling: touch;
+    width: auto;
+    max-width: unset;
+    margin-bottom: 40px;
+  }
+}
+
+.burgerIcon {
+  @media (max-width: 768px) {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.burgerLine {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+
+  @media (max-width: 768px) {
+    transition: transform 0.3s ease;
+  }
+}
+
+.headerBtn {
+  @media (max-width: 768px) {
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+}
+
+.routesWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+
+  @media (max-width: 768px) {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    column-gap: 0;
+    row-gap: 60px;
+    flex-direction: column;
+    background: white;
+    border-radius: 30px;
+    padding: 15px 0;
+
+    a {
+      color: black;
+    }
+  }
+}
+
+.headerRouteItem {
+  color: white;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headerBtn {
+  padding: 15px 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  background: rgba(217, 217, 217, 0.79);
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
